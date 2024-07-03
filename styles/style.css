@@ -1,3 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 h2 {
   color: red;
+}
+#heading-parent {
+  background-color: bisque;
+  height: 800px;
+  padding: 200px 100px;
+  width: 600px;
+  margin: 0px auto;
+}
+#heading-parent > h1 {
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
